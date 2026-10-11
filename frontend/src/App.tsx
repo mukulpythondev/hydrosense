@@ -943,8 +943,13 @@ export default function App() {
                   );
                 })}
               </MapContainer> : (
-                <div className="empty-state" role="status">
-                  Underpass map unavailable until a reviewed hotspot dataset is installed.
+                <div className="empty-state map-unavailable" role="status">
+                  <MapPin size={28} aria-hidden="true" />
+                  <strong>Hotspot grid unavailable</strong>
+                  <span>
+                    Install reviewed hotspots, thresholds, metrics, and event records to activate map markers.
+                  </span>
+                  <code>UNDERPASS_DATA_DIR</code>
                 </div>
               )}
             </div>

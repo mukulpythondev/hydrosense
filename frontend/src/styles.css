@@ -2815,3 +2815,130 @@ textarea:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+@media (min-width: 1101px) {
+  .app-shell {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 20px 28px 48px 282px;
+  }
+
+  .top-nav-masthead {
+    width: 254px;
+    height: 100dvh;
+    position: fixed;
+    inset: 0 auto 0 0;
+    z-index: 1000;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 18px;
+    margin: 0;
+    padding: 22px 16px;
+    background: #ffffff;
+    border-right: 1px solid var(--rule-medium);
+    border-bottom: 0;
+    box-shadow: 4px 0 18px rgba(9, 43, 57, 0.06);
+  }
+
+  .nav-brand-group {
+    width: 100%;
+    min-width: 0;
+    padding: 0 4px 18px;
+    border-bottom: 1px solid var(--rule-subtle);
+  }
+
+  .nav-tab-menu {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+  }
+
+  .nav-tab-btn {
+    width: 100%;
+    min-height: 44px;
+    justify-content: flex-start;
+    padding: 10px 12px;
+    border-left: 3px solid transparent;
+  }
+
+  .nav-tab-btn.active {
+    color: #07566b;
+    background: var(--pastel-blue-bg);
+    border-left-color: #0b91aa;
+    box-shadow: none;
+  }
+
+  .nav-right-actions {
+    width: 100%;
+    margin-top: auto;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    padding-top: 16px;
+    border-top: 1px solid var(--rule-subtle);
+  }
+
+  .live-beacon-pill,
+  .time-readout {
+    width: 100%;
+    display: flex;
+  }
+
+  .live-beacon-pill {
+    align-items: flex-start;
+    white-space: normal;
+    line-height: 1.4;
+  }
+
+  .time-readout {
+    padding: 4px 8px;
+  }
+
+  .btn-transmit-global,
+  .btn-auth {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .btn-tactile-refresh {
+    width: 100%;
+  }
+}
+
+.map-unavailable {
+  align-content: center;
+  gap: 9px;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.map-unavailable svg {
+  justify-self: center;
+  color: var(--sky);
+}
+
+.map-unavailable strong {
+  color: var(--ink-primary);
+  font-size: 16px;
+}
+
+.map-unavailable span {
+  max-width: 440px;
+  line-height: 1.6;
+}
+
+.map-unavailable code {
+  justify-self: center;
+  padding: 5px 8px;
+  color: var(--pastel-blue-ink);
+  background: var(--pastel-blue-bg);
+  border: 1px solid var(--pastel-blue-border);
+  border-radius: 4px;
+  font-size: 11px;
+}
