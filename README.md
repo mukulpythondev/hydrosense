@@ -153,6 +153,15 @@ Issues and pull requests are welcome. Before submitting a change:
 2. Keep status/data-provenance labels (e.g. `source: simulated_sensor` vs `arduino`) accurate — don't relabel test data as live telemetry.
 3. Avoid introducing claims (connectivity, accuracy, certification) that aren't backed by verified, working code.
 
+## Team Contributions
+
+| Team Member | Contributions |
+|---|---|
+| **Team Leader** | Led AWS integration, including API deployment, cloud infrastructure, backend connectivity, persistent storage, and Amazon Bedrock integration for AI-assisted image assessment. |
+| **Second Team Member** | Led IoT and hardware integration, focusing on Arduino-based water-level sensing and gateway connectivity for the HydroSense monitoring system. |
+| **Third Team Member** | Contributed to full-stack development and curated historical waterlogging data for underpass risk assessment, helping connect the dataset with the platform's monitoring features. |
+| **Fourth Team Member** | Led frontend development across HydroSense, building and refining the user interface, dashboard, map-based monitoring experience, and community reporting workflow. |
+
 ## License and acknowledgments
 
 No `LICENSE` file is currently present in this repository. The maintainers should choose and add a license before treating this project as formally open source.
